@@ -1,4 +1,5 @@
-# -*- coding: cp1252 -*-
-x = input("Hey type a word charater: ")
+message = input('Message: ')
 
-print('The charator you have typed is', ord(x))
+for i in message:
+    code = ord(i)
+    print(code)
