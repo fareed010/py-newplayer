@@ -1,3 +1,4 @@
 code = input('Code: ')
-code = int(code)
-print(chr(code))
+code = code.split(' ')
+for i in code:
+    print(chr(int(i)))
