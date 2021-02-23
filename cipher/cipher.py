@@ -1,4 +1,5 @@
-code = input('Code: ')
-code = code.split(' ')
-for i in code:
-    print(chr(int(i)))
+code = input('Codes: ')
+codeSplit = code.split(' ')
+for i in codeSplit:
+    result = int(i)
+    print(chr(result))
