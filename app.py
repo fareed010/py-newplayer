@@ -1,5 +1,3 @@
-message = input('Message: ')
+# farmatted string
 
-for i in message:
-    code = ord(i)
-    print(code)
+name = 'John'
