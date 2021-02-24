@@ -1,4 +1,4 @@
-# farmatted string
+# formatted string
 
 name = 'John'
 age = 22
