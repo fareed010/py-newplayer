@@ -1,7 +1,7 @@
 from functions import rotate
 
 
-def encrypt(nessage, key):
+def encrypt(message, key):
     encrypted = ''
     for character in message:
         encrypted += rotate(character, key)
