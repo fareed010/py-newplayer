@@ -1,4 +1,6 @@
-first_name = 'John'
-last_name = 'Doe'
+# list (Array)
 
-print(first_name, last_name)
+li = [1, 2, 3, 4, 5]
+
+for i in li:
+    print(i)
