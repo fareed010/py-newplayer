@@ -1,10 +1,10 @@
 # A simple cipher function
 letter = input("Word: ")
-key = input("Key: ")
+key = int(input("Key: "))
 
 
 def rotate(l, k):
-    new = ord(letter) + key
+    new = ord(l) + k
     new = chr(new)
     return new
 
