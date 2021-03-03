@@ -1,7 +1,11 @@
-# list (Array)
+x = int(input('Please enter a integer: '))
 
-li = [1, 2, 3, 4, 5]
-amazon_cart = ['Mouse', 'graphic cart', 'mousepad']
-
-for i in amazon_cart:
-    print(i)
+if x < 0:
+    x = 0
+    print('Negative changed to zero')
+elif x == 0:
+    print('Zero')
+elif x == 1:
+    print('Single')
+else:
+    print('More...')
