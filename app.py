@@ -1,6 +1,5 @@
-# formatted string
-
-name = 'John'
-age = 22
-
-print(f'hi {name}. you are {age} years old')
+for num in range(2, 10):
+    if num % 2 == 0:
+        print('Found an even number', num)
+    else:
+        print('Found an odd number', num)
