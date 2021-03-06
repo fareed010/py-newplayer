@@ -1,3 +1,3 @@
-words = ['cat', 'window', 'defenestrate']
-for w in words:
-    print(w, 'string length is', len(w))
+a = ['a', 'b', 'c', 'd', 'e', 'f']
+for i in range(len(a)):
+    print(i, a[i])
