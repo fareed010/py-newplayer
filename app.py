@@ -1,0 +1,1 @@
+words = ['cat', 'window', 'defenestrate']
