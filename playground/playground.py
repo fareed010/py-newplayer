@@ -6,4 +6,4 @@ def fib(n):
     print()
 
 
-fib(2000)
+print(fib)
