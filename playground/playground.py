@@ -1,9 +1,2 @@
-def f(a, l=[]):
-    l.append(a)
-    return l
-
-
-print(f(1))
-print(f(2))
-print(f(3))
-print(f(4))
+lambda a: a * 9
+print(a(4))
