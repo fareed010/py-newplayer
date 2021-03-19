@@ -1,2 +1,3 @@
-lambda a: a * 9
-print(a(4))
+basket = ['a', 'b', 'c', 'd', 'e']
+
+print(basket.index('d'))
