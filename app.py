@@ -1,6 +1,5 @@
-dictionary = {
-    'a': 1,
-    'b': 2,
-    'c': 3
-}
-print(dictionary)
+is_old = True
+is_licenced = True
+
+if is_old:
+    print('You are old enough to drive!')
