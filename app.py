@@ -13,7 +13,7 @@ total_points = 0
 done = False
 
 while not done:
-    grade = input('Grade')
+    grade = input()
     if grade == '':
         done = True
     elif grade not in points:
