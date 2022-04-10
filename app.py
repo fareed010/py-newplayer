@@ -1,7 +1,11 @@
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 
 
-thislist[1:4] = ["blackcurrent", "watermelon"]
+tropical = ["mango", "pineapple", "papaya"]
 
+thislist.extend(tropical)
 
-print(thislist)
+for i in thislist:
+    if i == "melon":
+        thislist.remove("melon")
+    print(thislist)
