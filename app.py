@@ -5,7 +5,4 @@ tropical = ["mango", "pineapple", "papaya"]
 
 thislist.extend(tropical)
 
-for i in thislist:
-    if i == "melon":
-        thislist.remove("melon")
-    print(thislist)
+[print(x) for x in thislist]
