@@ -1,5 +1,7 @@
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 
 
-if "apple" in thislist:
-    print("Yes, 'Apple' is in the fruits list")
+thislist[1:4] = ["blackcurrent", "watermelon"]
+
+
+print(thislist)
