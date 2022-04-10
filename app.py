@@ -5,4 +5,6 @@ tropical = ["mango", "pineapple", "papaya"]
 
 thislist.extend(tropical)
 
-[print(x) for x in thislist]
+newList = [x if x != "banana" else "orange" for x in thislist]
+
+print(newList)
