@@ -1,9 +1,16 @@
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+tuples_port = (21, 22, 80, 443)
+
+list_port = [21, 22, 80, 443]
+
+dic_port = {"FTP": 21, "HTTP": 80}
 
 
-tropical = ["mango", "pineapple", "papaya"]
 
-thislist.extend(tropical)
+change_list_port = list_port[1] = "FTP"
+# change_tuple_port = tuples_port[1] = "FTP"
 
-thislist.sort(reverse = True)
-print(thislist)
+print(change_list_port)
+
+print(dic_port["FTP"])
+
+print(tuples_port)
