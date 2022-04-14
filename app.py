@@ -1,5 +1,17 @@
-def get_serviceName(port_number):
-    ports_services = {21: "ftp", 22: "ssh", 80: "http", 443: "https"}
-    return ports_services[port_number]
 
-print(get_serviceName(22))
+
+
+
+
+def login(password):
+    if (password == "MrRobot"):
+        print("Welcome to FSociety")
+    else: 
+        print("Wrong Password Hacker...!")
+
+for attempt in range(0, 3):
+    secret = input("Enter your password: ")
+    login(secret)
+
+    if(attempt == 2):
+        print("Sorry you passed the maximum attempts, exiting...")
