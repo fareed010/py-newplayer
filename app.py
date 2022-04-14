@@ -1,16 +1,5 @@
-tuples_port = (21, 22, 80, 443)
+def get_serviceName(port_number):
+    ports_services = {21: "ftp", 22: "ssh", 80: "http", 443: "https"}
+    return ports_services[port_number]
 
-list_port = [21, 22, 80, 443]
-
-dic_port = {"FTP": 21, "HTTP": 80}
-
-
-
-change_list_port = list_port[1] = "FTP"
-# change_tuple_port = tuples_port[1] = "FTP"
-
-print(change_list_port)
-
-print(dic_port["FTP"])
-
-print(tuples_port)
+print(get_serviceName(22))
