@@ -5,6 +5,5 @@ tropical = ["mango", "pineapple", "papaya"]
 
 thislist.extend(tropical)
 
-newList = [x if x != "banana" else "orange" for x in thislist]
-
-print(newList)
+thislist.sort(reverse = True)
+print(thislist)
