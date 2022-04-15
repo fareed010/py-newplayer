@@ -1,16 +1,17 @@
-import sys
+class PrintColor:
+    red_color = "\033[91m {}\033[00m"
+    green_color = "\033[92m {}\033[00m"
 
-try:
-    open_file = open("./rumi.txt",encoding="utf8")
-    print("file opened successfully")
+    def __init__(self, text):
+        self.text = text
 
-    count = 0
-    for line in open_file:
-        count = count + 1
-        print(line)
-        
-except Exception as err:
-    print("Error: %s" % str(err))
+    def print_red(self):
+        print(self.red_color.format(self.text))
 
-finally:
-    print("final line")
+    def print_green(self):
+        print(self.green_color.format(self.text))
+
+prnt = PrintColor("Text to be printed")
+
+prnt.print_green()
+prnt.print_red()
